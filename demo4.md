@@ -15,3 +15,44 @@
 - *~倾斜删除~*
 - ***~~加粗倾斜删除~~***
  
+## 图片链接
+
+基本文字链接:
+
+	[链接文字](url)
+[百度](http://www.baidu.com)
+
+基本图片:
+	![alt](url text)
+![](https://www.baidu.com/img/bd_logo1.png)
+
+图片链接：
+[![](https://www.baidu.com/img/bd_logo1.png)](http://www.baidu.com)
+
+[![](https://www.baidu.com/img/bd_logo1.png)][baidu]
+
+[![][baidu_logo]][baidu]
+
+## 引用链接的问题
+
+基本引用链接的用法：
+
+good
+[百度][baidu]
+[百度网站][baidu]
+
+
+## 多级列表
+
+- item 1  
+	- item 1.1
+	- item 1.2
+1. item 1
+	1. item 1.1
+	2. item 1.2
+	
+
+<!-- 以下是引用式链接 -->
+[baidu]: http://www.baidu.com
+[baidu_logo]: https://www.baidu.com/img/bd_logo1.png
+
