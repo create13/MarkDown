@@ -44,13 +44,41 @@ good
 
 ## 多级列表
 
+- 问题1：如何打算：空行不行，需要文字段落
+- 问题2：打断的列表 ，如何续上 缩进打断的文字
+
 - item 1  
 	- item 1.1
 	- item 1.2
 1. item 1
 	1. item 1.1
 	2. item 1.2
+2. item 2
+3. item 3
+4. item 4
+
+打断
+1. item 1
+	1. item 1.1
+	2. item 1.2
 	
+qwqwqw
+
+2. item 2
+3. item 3
+4. item 4
+	
+续上
+
+1. item 1
+	1. item 1.1
+	2. item 1.2
+	
+	qwqwqw
+
+2. item 2
+3. item 3
+4. item 4
 
 <!-- 以下是引用式链接 -->
 [baidu]: http://www.baidu.com
