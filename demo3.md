@@ -13,30 +13,6 @@
 	<hr>  horizontal rule
 	
 ___
-## 流程图
-```javascript
-flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-st=>start: start
-e=>end: end
-op=>operation: my operation
-cond=>condition: my condition
-
-st->op->cond
-cond(yes)->op
-cond(no)->end
-
-a-->b:op1
-b->>c:op2
-Note over c:my op
-c->a:op3
 ## html 代码 demo
 
 <p align='center'>hello world!</p>
