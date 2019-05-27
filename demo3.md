@@ -24,21 +24,19 @@ st->op->cond
 cond(yes)->e
 cond(no)->op
 ```
-st=>start: Start|past:>http://www.google.com[blank]
-e=>end: End:>http://www.google.com
-op1=>operation: My Operation|past
-op2=>operation: Stuff|current
-sub1=>subroutine: My Subroutine|invalid
-cond=>condition: Yes 
-or No?|approved:>http://www.baidu.com
-c2=>condition: Good idea|rejected
-io=>inputoutput: catch something...|request
+st=>start: start
+e=>end: end
+op=>operation: my operation
+cond=>condition: my condition
 
-st->op1(right)->cond
-cond(yes, right)->c2
-cond(no)->sub1(left)->op1
-c2(yes)->io->e
-c2(no)->op2->e
+st->op->cond
+cond(yes)->op
+cond(no)->end
+
+a-->b:op1
+b->>c:op2
+Note over c:my op
+c->a:op3
 ## html 代码 demo
 
 <p align='center'>hello world!</p>
