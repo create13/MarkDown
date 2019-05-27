@@ -14,15 +14,15 @@
 	
 ___
 ## 流程图
-```flow
-st=>start: 开始
-op=>operation: My Operation
+flow
+st=>start: Start
+op=>operation: Your Operation
 cond=>condition: Yes or No?
 e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
-&```
+
 ## html 代码 demo
 
 <p align='center'>hello world!</p>
