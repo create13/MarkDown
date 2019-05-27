@@ -21,7 +21,7 @@
 图片的MarkDown 语法
 ![alt](url text)
 - 外部图片 demo
-![baidu](https://www.baidu.com/img/bd_logo1.png "百度网站")
+![baidu](https://www.baidu.com/img/bd_logo1.png ''百度网站'')
 - 仓库内的图片 demo
 ![](images/cartoon-ps.jpg)
 
