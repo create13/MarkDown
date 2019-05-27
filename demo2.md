@@ -31,6 +31,7 @@
 - 仓库内的图片 demo
 ![][open_png]
 
+<a href="https://www.baidu.com/img/bd_logo1.png" target="_blank">百度图片链接</a>
 ## 引用
 
 >这是一个引文。
